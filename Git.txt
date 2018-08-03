@@ -1,4 +1,4 @@
-Git
+﻿Git
 1.	Git là gì
 2.	Có 3 loại VC: local, dis.., center
 Các trạng thái file (Files Transition Between 3 States)
@@ -13,3 +13,14 @@ Cd “my doc” truy cap thu muc
 Git --list
 Git help add
 Ls //hien file
+git init //khoi tao
+git add * // add tat ca cac file
+git add *.java// add cac file java//
+
+gitignore tạo 1 flie  
+
+git commit -m 'Initial Project Version'
+
+git status
+
+git diff // hiện các thay đổi

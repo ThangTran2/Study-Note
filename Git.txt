@@ -14,7 +14,7 @@ Git --list
 Git help add
 Ls //hien file
 git init //khoi tao
-git add * // add tat ca cac file
+git add * // add tat ca cac file staged a file
 git add *.java// add cac file java//
 
 gitignore tạo 1 flie  
@@ -24,3 +24,32 @@ git commit -m 'Initial Project Version'
 git status
 
 git diff // hiện các thay đổi
+
+git diff --cached // hiện các thay đổi staged
+
+git commit -a -m 'change ...' // skip staged va commit luon (ko nen lam thuong xuyen)
+
+git rm tenFile.txt //xoa file
+git rm -f tenFile.txt //bat buoc xoa file va ca staged
+git rm -cached tenFile.txt //ko xoa file nhung xoa o staged (xoa trong git) 
+
+git mv tenFile.txt File.txt //doi ten file trong git
+
+git log //hien thi cac thay doi
+git log --pretty=oneline
+git log --pretty=format:"%h : %a : $ar : %s"
+git log -p -2
+git log --stat 
+git log --since=1.weeks
+git log --since="2018-02-08"
+git log --author=".."
+git log --before="date"
+
+git commit --amend //undo a commit
+
+git reset HEAD tenFile.txt // xoa file da staged
+
+
+
+
+

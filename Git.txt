@@ -7,8 +7,8 @@ Các trạng thái file (Files Transition Between 3 States)
 •	Committed Files
 Cài đặt git:
 Sau khi cài đặt:
-$ git config --global user.name "Thang Tran"
-$ git config --global user.email "thangminhtran2@gmail.com"
+git config --global user.name "Thang Tran"
+git config --global user.email "thangminhtran2@gmail.com"
 Cd “my doc” truy cap thu muc
 Git --list
 Git help add
